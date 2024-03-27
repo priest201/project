@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Contact Group Name</h1>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="job.html">Job Application Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Section>
+        <div>
+            <h3>Contact Us</h3>
+        <p>Feel free to reach out to us using the form below:</p>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+    </Section>
+    <footer>
+        <p>
+            &copy;2024 Group Name. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
